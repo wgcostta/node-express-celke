@@ -1,3 +1,9 @@
+## Projeto de NodeJs com MySQL
+
+subir o servidor:
+
+nodemon index.js
+
 Acessar o banco de dados:
 mysql -h 'servidor' -u 'usuario' -p
 Exemplo: mysql -h localhost -u root -p
@@ -23,7 +29,7 @@ SHOW TABLES;
 
 Cadastrar registro no banco de dados:
 INSERT INTO 'nome_tabela' (coluna1, coluna2) VALUES ('valor1_coluna1', 'valor_coluna2');
-Exemplo: INSERT INTO users (nome, email) VALUES ('Cesar', 'cesar@celke.com.br');
+Exemplo: INSERT INTO users (nome, email) VALUES ('Cesar', 'teste@teste.com.br');
 
 Listar registros da tabela:
 SELECT * FROM 'nome_tabela';
